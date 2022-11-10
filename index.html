@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuekun Jiao - Personal Portfolio</title>
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDE BAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/yuekun.jpg" alt="Yuekun Jiao" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yuekun Jiao">Yuekun Jiao</h1>
+
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jiaoyuekun1118@gmail.com" class="contact-link">jiaoyuekun1118@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+19295104441" class="contact-link">+1 (929) 510-4441</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1995-11-18">November 18, 1995</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New York, New York, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/jiao-yuekun-b0030b1a2" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/JMK100" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-kaggle"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+    
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+      
+ 
+        <pre class="about-pre"><code>
+      <font color="#c74ae6">Class</font> <font color="#2c99fa">Me</font>:
+          <font color="#c74ae6">def</font><font color="#2c99fa"> __init__</font>(<font color="#b6b819">self</font>):
+              self<font color="#f92672">.</font>name <font color="#f92672">=</font><font color="#88bf1b">"Yuekun Jiao"</font> 
+              self<font color="#f92672">.</font>prefer_name <font color="#f92672">=</font> <font color="#88bf1b">"Joy"</font>
+              self<font color="#f92672">.</font>born_year <font color="#f92672">=</font> <font color="#88bf1b">1995</font>
+              self<font color="#f92672">.</font>hometown <font color="#f92672">=</font> <font color="#88bf1b">"Luohe, Henan, CN"</font>
+              self<font color="#f92672">.</font>grad_school <font color="#f92672">=</font> <font color="#88bf1b">"St.Johns' University"</font>
+              self<font color="#f92672">.</font>undergrad_school <font color="#f92672">=</font> <font color="#88bf1b">"Henan University of Science and Technology"</font>
+              self<font color="#f92672">.</font>curr_location <font color="#f92672">=</font> <font color="#88bf1b">"New York, New York, US"</font>
+
+          <font color="#c74ae6">def</font> <font color="#2c99fa">favs</font>(<font color="#b6b819">self</font>):
+              self<font color="#f92672">.</font>fav_game <font color="#f92672">=</font> <font color="#88bf1b">"Star Karby, God of War"</font>
+              self<font color="#f92672">.</font>fav_series <font color="#f92672">=</font> <font color="#88bf1b">"Futurama, Rick and Morty"</font>
+              self<font color="#f92672">.</font>fav_color <font color="#f92672">=</font> <font color="#88bf1b">"Blue and Green"</font>
+              self<font color="#f92672">.</font>fav_band <font color="#f92672">=</font> <font color="#88bf1b">"Imagine Dragons"</font>
+              self<font color="#f92672">.</font>fav_city <font color="#f92672">=</font> <font color="#88bf1b">"NYC, hainan"</font>
+              self<font color="#f92672">.</font>fav_cat <font color="#f92672">=</font> <font color="#88bf1b">"mycat"</font>
+              self<font color="#f92672">.</font>fav_programming_lang <font color="#f92672">=</font><font color="#88bf1b"> 'Python'</font>
+            
+          <font color="#c74ae6">def</font> <font color="#2c99fa">skills</font>(<font color="#b6b819">self</font>):
+              self<font color="#f92672">.</font>music_skills <font color="#f92672">=</font> <font color="#88bf1b">"Piano, Guitar"</font>
+              self<font color="#f92672">.</font> do_best_skill<font color="#f92672">=</font> <font color="#88bf1b">"Data Cleaning"</font>
+              self<font color="#f92672">.</font>still_learning_skills <font color="#f92672">=</font> <font color="#88bf1b">"Machine Learning"</font>
+              self<font color="#f92672">.</font>team_skills <font color="#f92672">=</font> <font color="#88bf1b">"teamwork"</font>
+              self<font color="#f92672">.</font>other_progaming_skills <font color="#f92672">=</font><font color="#88bf1b"> "R, SQL, CSS + HTML(still learning) "</font>
+
+        </code></pre>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+              
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <a href="./assets/J_data_A.pdf" download="resume.pdf"><button class="button-87" role="button" >Download PDF</button></a>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Trade Operations Analyst</h4>
+
+              <span>Feb 2022 — Now</span>
+
+              
+
+              <p class="timeline-text">
+                
+              
+                - Fetched over 30 million trade and market exchange data through API key.
+                  Implemented raw data cleaning and data archiving upload. 
+                  Maintained company internal database. 
+                  Monitored the daily trading situation of 28 trading accounts in Grafana; established 3 types of warning systems by using webhook tools.<br><br>
+                - Collected weekly signup users’ behavior tracking and analyzed market benchmarks by using python and Tableau. 
+                  Collaborated with the marketing team to establish the user registration process monitoring system and user behavior analysis of automated report in Grafana.<br><br>
+                - Used Python to achieve 4 types of analysis automation reports and collaborated with the accounting team to implement monthly financial statement automation. 
+                  Improved productivity and efficiency and reduced work timeline from 7 days to 2 days.<br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business Developer</h4>
+
+              <span>May 2021 - Oct 2021</span>
+
+              <p class="timeline-text">
+                -Executed analysis of 130 restaurants, developed 100+ preliminary market surveys, and formulate sales model for cooperative restaurants. 
+                Provide relevant market data support for the company, and timely report to the stakeholder.<br><br>
+                -Perform exploratory data analysis of 50,000+ customer data to help the company deliver data insights, propose the transformation activity mode, and increase orders by 300+ in a month. 
+                Increased Queens area's total daily orders from 600 to 1300.
+
+              </p>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">St. John’s University - MS</h4>
+              <h5 class="h5 timeline-item-title"></h5>
+
+              <span>Sep 2019 — July 2021</span>
+
+              <p class="timeline-text">
+                Focus on frameworks, risk governance, risk identification, risk quantification, risk-reward decision-making, and risk messaging.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Henan University of Science and Technology -BS</h4>
+
+              <span>Sep 2013 — July 2017</span>
+
+              <p class="timeline-text">
+                Focus on integrating computer-based information technology solutions and business processes.
+              </p>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5> <h6 class="h6">- numpy, pandas, seaborn, matplotlib, sentiment Analysis, scikit-learn, ccxt, etc.</h6> 
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5> <h6 class="h6">- MySQL, Navicat</h6>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5> <h6 class="h6">- tidyverse, ggplot2, shinny, ploty, Caret, e1071, dplyr, tidyr, etc.</h6>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau, Grafana</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>My Life</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>My Work</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>My Hobby</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>My Life</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>My Work</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>My Hobby</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="my life">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gangzi.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="my life">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/miezi_and_pastrick.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my hobby">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/魔法师🧙‍♀️.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my hobby">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Lv护士.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my hobby">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/薄荷的夏天.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my hobby">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/猫女孩.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+            
+
+
+
+            <li class="project-item  active" data-filter-item data-category="my life">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/karby.png" alt="Gangzi" loading="lazy">
+                </figure>
+
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYeZuBI9YwokRjMDs_IEyCwo&key=AIzaSyCHRYkOQAg6MPHPRk-22fgwg9Igfvhag0Q"
+              width="400" height="300" style="border:0" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
